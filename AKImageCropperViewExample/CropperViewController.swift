@@ -122,7 +122,7 @@ final class CropperViewController: UIViewController {
     }
     
     @IBAction func resetAction(_ sender: AnyObject) {
-        
+        cropView.setAnimated(result: false)
         cropView.reset(animationDuration: 0.3)
         angle = 0.0
     }
